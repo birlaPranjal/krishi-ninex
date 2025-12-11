@@ -1,0 +1,11 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+
+# Compiled files in api folder (Vercel compiles these directly)
+api/*.js
+api/*.js.map
+api/*.d.ts
+api/*.d.ts.map

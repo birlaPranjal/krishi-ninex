@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+{"version":3,"file":"cart.model.d.ts","sourceRoot":"","sources":["../../src/models/cart.model.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,MAAM,UAAU,CAAC;AAoBhC,eAAO,MAAM,IAAI;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAAqC,CAAC"}
+=======
+{"version":3,"file":"cart.model.d.ts","sourceRoot":"","sources":["../../src/models/cart.model.ts"],"names":[],"mappings":"AAiBA,eAAO,MAAM,IAAI,KAAqC,CAAC"}
+>>>>>>> 158cec46e5657871cfde542139451eaf8f30285e
