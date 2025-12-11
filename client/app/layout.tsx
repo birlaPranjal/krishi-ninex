@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "KRISHANSHECLAT AGROXGLOBAL - Your Trusted Agricultural Marketplace",
+  title: "ninexagro - Your Trusted Agricultural Marketplace",
   description: "Shop for agricultural products, seeds, fertilizers, equipment and more. Best prices, free delivery across India.",
 };
 

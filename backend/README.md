@@ -1,6 +1,6 @@
-# KRISHANSHECLAT AGROXGLOBAL Backend API
+# ninexagro Backend API
 
-A robust, scalable backend API for the KRISHANSHECLAT AGROXGLOBAL e-commerce platform built with Express.js, TypeScript, and Mongoose ODM.
+A robust, scalable backend API for the ninexagro e-commerce platform built with Express.js, TypeScript, and Mongoose ODM.
 
 ## 🚀 Features
 
@@ -246,5 +246,5 @@ ISC
 
 ## 👨‍💻 Author
 
-KRISHANSHECLAT AGROXGLOBAL Team
+ninexagro Team
 

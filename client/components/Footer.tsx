@@ -185,7 +185,7 @@ const Footer = () => {
                     href="/why-eclat-agroxglobal" 
                     className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
-                    Why KRISHANSHECLAT AGROXGLOBAL
+                    Why ninexagro
                   </Link>
                 </li>
                 <li>
@@ -257,7 +257,7 @@ const Footer = () => {
                     href="/eclat-agroxglobal-blog" 
                     className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
-                    KRISHANSHECLAT AGROXGLOBAL Blog
+                    ninexagro Blog
                   </Link>
                 </li>
                 <li>
@@ -343,7 +343,7 @@ const Footer = () => {
                     href="/sell-on-eclat-agroxglobal" 
                     className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
-                    Sell on KRISHANSHECLAT AGROXGLOBAL
+                    Sell on ninexagro
                   </Link>
                 </li>
                 <li>
@@ -355,6 +355,37 @@ const Footer = () => {
                   </Link>
                 </li>
               </ul>
+            </div>
+          </div>
+
+          {/* Contact Information */}
+          <div className="pt-5 sm:pt-6 md:pt-8 border-t border-gray-600 mb-5 sm:mb-6 md:mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
+              <div>
+                <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-white">Address</h3>
+                <p className="text-sm sm:text-base text-gray-200 leading-relaxed">
+                  353 MR 3 ROAD MAHALAKSHMI NAGAR<br />
+                  INDORE, 452010
+                </p>
+              </div>
+              <div>
+                <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-white">Contact</h3>
+                <p className="text-sm sm:text-base text-gray-200">
+                  <a href="mailto:Sales@ninex-group.com" className="hover:text-white hover:underline transition-all duration-200">
+                    Sales@ninex-group.com
+                  </a>
+                  <br />
+                  <a href="tel:+917049407951" className="hover:text-white hover:underline transition-all duration-200">
+                    +917049407951
+                  </a>
+                </p>
+              </div>
+              <div>
+                <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-white">Owner & Managed By</h3>
+                <p className="text-sm sm:text-base text-gray-200">
+                  ninexfold agency LLP
+                </p>
+              </div>
             </div>
           </div>
 
@@ -415,7 +446,7 @@ const Footer = () => {
       {/* Lower Section - Lighter Blue */}
       <div className="bg-[#4a7ba7] text-white">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-4 sm:py-6 md:py-8">
-          <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-5 md:mb-6">Most Searched on KRISHANSHECLAT AGROXGLOBAL</h2>
+          <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-5 md:mb-6">Most Searched on ninexagro</h2>
           
           <div className="space-y-4 sm:space-y-5 md:space-y-6 text-xs sm:text-sm">
             {/* Equipments */}

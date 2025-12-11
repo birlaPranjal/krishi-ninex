@@ -107,7 +107,7 @@ const app = createApp();
 app.get('/health', (req: express.Request, res: express.Response) => {
   res.status(200).json({
     success: true,
-    message: 'KRISHANSHECLAT AGROXGLOBAL API is running',
+    message: 'ninexagro API is running',
     timestamp: new Date().toISOString(),
     environment: config.nodeEnv,
     version: config.apiVersion,
@@ -141,7 +141,7 @@ const startServer = (): void => {
     console.log(`
   ╔═══════════════════════════════════════════════════════════╗
   ║                                                           ║
-  ║   🌱 KRISHANSHECLAT AGROXGLOBAL Backend API                        ║
+  ║   🌱 ninexagro Backend API                        ║
   ║                                                           ║
   ║   Environment: ${config.nodeEnv.padEnd(40)}║
   ║   Server running on: http://localhost:${String(config.port).padEnd(20)}║

@@ -1,7 +1,7 @@
 {
   "name": "krishansheclat-agroxglobal-backend",
   "version": "1.0.0",
-  "description": "Backend API for KRISHANSHECLAT AGROXGLOBAL E-Commerce Platform",
+  "description": "Backend API for ninexagro E-Commerce Platform",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -17,7 +17,7 @@
     "express",
     "typescript"
   ],
-  "author": "KRISHANSHECLAT AGROXGLOBAL",
+  "author": "ninexagro",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

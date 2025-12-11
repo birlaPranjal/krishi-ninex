@@ -40,7 +40,7 @@ export default function SitemapPage() {
       icon: Users,
       links: [
         { name: "About Us", href: "/about-us" },
-        { name: "Why KRISHANSHECLAT AGROXGLOBAL", href: "/why-eclat-agroxglobal" },
+        { name: "Why ninexagro", href: "/why-eclat-agroxglobal" },
         { name: "Careers", href: "/careers" },
         { name: "Contact Us", href: "/contact-us" },
         { name: "New Arrivals", href: "/new-arrivals" },
@@ -49,7 +49,7 @@ export default function SitemapPage() {
         { name: "ECLAT Talk", href: "/eclat-talk" },
         { name: "Find Commodity Prices", href: "/find-commodity-prices" },
         { name: "How Referral Works", href: "/how-referral-works" },
-        { name: "KRISHANSHECLAT AGROXGLOBAL Blog", href: "/eclat-agroxglobal-blog" }
+        { name: "ninexagro Blog", href: "/eclat-agroxglobal-blog" }
       ]
     },
     {
@@ -69,7 +69,7 @@ export default function SitemapPage() {
       title: "Services",
       icon: Phone,
       links: [
-        { name: "Sell on KRISHANSHECLAT AGROXGLOBAL", href: "/sell-on-eclat-agroxglobal" },
+        { name: "Sell on ninexagro", href: "/sell-on-eclat-agroxglobal" },
         { name: "Customer Login", href: "/customer-login" }
       ]
     }
@@ -85,7 +85,7 @@ export default function SitemapPage() {
       <div className="hero-banner">
         <div className="hero-banner-content">
           <h1>Sitemap</h1>
-          <p>Navigate All Pages on KRISHANSHECLAT AGROXGLOBAL</p>
+          <p>Navigate All Pages on ninexagro</p>
         </div>
       </div>
 

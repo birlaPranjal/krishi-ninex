@@ -104,7 +104,7 @@ export default function RegisterPage() {
               <UserPlus className="w-8 h-8 text-green-600" />
             </div>
             <h1>Create Account</h1>
-            <p>Sign up to start shopping with KRISHANSHECLAT AGROXGLOBAL</p>
+            <p>Sign up to start shopping with ninexagro</p>
           </div>
 
           {error && (
