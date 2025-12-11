@@ -45,7 +45,7 @@ export default function Header({ onMenuToggle, isMenuOpen = false }: HeaderProps
 
   return (
     <header className="bg-white shadow-sm border-b border-gray-100 relative z-[1001] w-full sticky top-0 backdrop-blur-sm bg-white/95">
-      <div className="w-full px-4 sm:px-6 md:px-8 max-w-7xl mx-auto">
+      <div className="w-full px-2 sm:px-3 md:px-4 max-w-[1400px] mx-auto">
         {/* Mobile Layout */}
         <div className="lg:hidden">
           {/* Top Row: Menu, Logo, Icons */}
@@ -57,24 +57,24 @@ export default function Header({ onMenuToggle, isMenuOpen = false }: HeaderProps
               aria-label="Toggle menu"
             >
               {isMenuOpen ? (
-                <X size={20} className="sm:w-5 sm:h-5" />
+                <X size={18} className="sm:w-4 sm:h-4" />
               ) : (
-                <Menu size={20} className="sm:w-5 sm:h-5" />
+                <Menu size={18} className="sm:w-4 sm:h-4" />
               )}
             </button>
 
             {/* Logo - Centered */}
             <Link href="/" className="flex items-center gap-1.5 flex-shrink-0 flex-1 justify-center">
-              <Image src='/logo.png' alt='logo' className='object-cover' height={100} width={200}></Image>
+              <Image src='/logo.png' alt='logo' className='object-cover' height={40} width={80}></Image>
             </Link>
 
             {/* Right Icons: Delivery Truck, Shopping Cart, User */}
             <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
               <button className="text-gray-700 hover:text-green-600 hover:bg-gray-50 rounded-lg transition-all duration-200 p-2 active:scale-95">
-                <Truck size={20} className="sm:w-5 sm:h-5" />
+                <Truck size={18} className="sm:w-4 sm:h-4" />
               </button>
               <Link href="/cart" className="relative text-gray-700 hover:text-green-600 hover:bg-gray-50 rounded-lg transition-all duration-200 p-2 active:scale-95">
-                <ShoppingCart size={20} className="sm:w-5 sm:h-5" />
+                <ShoppingCart size={18} className="sm:w-4 sm:h-4" />
                 {cartCount > 0 && (
                   <span className="absolute -top-1 -right-1 bg-gradient-to-br from-red-500 to-red-600 text-white text-[10px] font-bold rounded-full min-w-[18px] h-[18px] flex items-center justify-center shadow-lg border-2 border-white">
                     {cartCount > 9 ? '9+' : cartCount}
@@ -86,14 +86,14 @@ export default function Header({ onMenuToggle, isMenuOpen = false }: HeaderProps
                   href={user?.role === 'ADMIN' ? '/admin/orders' : '/my-orders'}
                   className="text-gray-700 hover:text-green-600 transition-colors p-1.5 flex items-center justify-center"
                 >
-                  <User size={18} className="sm:w-5 sm:h-5" />
+                  <User size={16} className="sm:w-4 sm:h-4" />
                 </Link>
               ) : (
                 <Link
                   href="/login"
                   className="text-gray-700 hover:text-green-600 transition-colors p-1.5 flex items-center justify-center"
                 >
-                  <User size={18} className="sm:w-5 sm:h-5" />
+                  <User size={16} className="sm:w-4 sm:h-4" />
                 </Link>
               )}
             </div>
@@ -102,7 +102,7 @@ export default function Header({ onMenuToggle, isMenuOpen = false }: HeaderProps
           {/* Search Bar - Below top row */}
           <div className="flex items-center gap-1 pb-2 sm:pb-3">
             <div className="flex-1 relative">
-              <Search size={18} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+              <Search size={16} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
               <input
                 type="text"
                 placeholder="Search for products..."
@@ -116,13 +116,13 @@ export default function Header({ onMenuToggle, isMenuOpen = false }: HeaderProps
         <div className="hidden lg:flex items-center justify-between py-3 md:py-4 gap-6 md:gap-8">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 flex-shrink-0 hover:opacity-90 transition-opacity duration-200">
-           <Image src='/logo.png' alt='logo' className='object-cover h-auto' height={100} width={200} priority></Image>
+           <Image src='/logo.png' alt='logo' className='object-cover h-auto' height={40} width={80} priority></Image>
           </Link>
 
           {/* Search Bar */}
           <div className="flex-1 max-w-2xl flex items-center gap-3 mx-4 md:mx-6">
             <div className="flex-1 relative group">
-              <Search size={18} className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 group-focus-within:text-green-600 transition-colors" />
+              <Search size={16} className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 group-focus-within:text-green-600 transition-colors" />
               <input
                 type="text"
                 placeholder="Search for products..."
@@ -130,10 +130,10 @@ export default function Header({ onMenuToggle, isMenuOpen = false }: HeaderProps
               />
             </div>
             <button className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-5 py-0 rounded-r-lg hover:from-blue-700 hover:to-blue-800 flex items-center justify-center transition-all duration-200 h-[46px] min-w-[46px] flex-shrink-0 shadow-md hover:shadow-lg active:scale-95">
-              <Search size={18} className="md:w-5 md:h-5" />
+              <Search size={16} className="md:w-4 md:h-4" />
             </button>
             <button className="bg-gradient-to-r from-green-600 to-green-700 text-white px-5 py-3 rounded-lg hover:from-green-700 hover:to-green-800 flex items-center gap-2 text-xs md:text-sm whitespace-nowrap hidden xl:flex transition-all duration-200 font-semibold h-[46px] shadow-md hover:shadow-lg active:scale-95">
-              <Search size={16} />
+              <Search size={14} />
               <span>Search by Technical Name</span>
             </button>
           </div>
@@ -141,11 +141,11 @@ export default function Header({ onMenuToggle, isMenuOpen = false }: HeaderProps
           {/* User Actions */}
           <div className="flex items-center gap-2 md:gap-3 flex-shrink-0">
             <button className="flex flex-col items-center gap-1 text-gray-700 hover:text-green-600 hover:bg-gray-50 rounded-lg transition-all duration-200 text-xs md:text-sm px-3 py-2 group">
-              <Truck size={20} className="md:w-5 md:h-5 group-hover:scale-110 transition-transform" />
+              <Truck size={18} className="md:w-4 md:h-4 group-hover:scale-110 transition-transform" />
               <span className="whitespace-nowrap font-medium text-[11px] md:text-xs">Track Order</span>
             </button>
             <Link href="/cart" className="relative flex flex-col items-center gap-1 text-gray-700 hover:text-green-600 hover:bg-gray-50 rounded-lg transition-all duration-200 text-xs md:text-sm px-3 py-2 group">
-              <ShoppingCart size={20} className="md:w-5 md:h-5 group-hover:scale-110 transition-transform" />
+              <ShoppingCart size={18} className="md:w-4 md:h-4 group-hover:scale-110 transition-transform" />
               <span className="whitespace-nowrap font-medium text-[11px] md:text-xs">Cart</span>
               {cartCount > 0 && (
                 <span className="absolute -top-1 -right-1 bg-gradient-to-br from-red-500 to-red-600 text-white text-[10px] font-bold rounded-full min-w-[20px] h-5 flex items-center justify-center shadow-lg border-2 border-white px-1">
@@ -166,7 +166,7 @@ export default function Header({ onMenuToggle, isMenuOpen = false }: HeaderProps
                     aria-label="My Account"
                     aria-expanded={showUserMenu}
                   >
-                    <User size={20} className="md:w-5 md:h-5" />
+                    <User size={18} className="md:w-4 md:h-4" />
                     <span className="whitespace-nowrap font-medium text-[11px] md:text-xs">My Account</span>
                   </button>
                   {showUserMenu && (
@@ -176,7 +176,7 @@ export default function Header({ onMenuToggle, isMenuOpen = false }: HeaderProps
                         <div className="flex items-start justify-between gap-3">
                           <div className="flex items-center gap-3 flex-1 min-w-0">
                             <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center shadow-md">
-                              <User size={18} className="text-white" />
+                              <User size={16} className="text-white" />
                             </div>
                             <div className="flex-1 min-w-0">
                               <p className="text-sm font-bold text-gray-900 truncate">
@@ -240,7 +240,7 @@ export default function Header({ onMenuToggle, isMenuOpen = false }: HeaderProps
                   href="/login"
                   className="flex flex-col items-center gap-1 text-gray-700 hover:text-green-600 hover:bg-gray-50 rounded-lg transition-all duration-200 text-xs md:text-sm px-3 py-2 group"
                 >
-                  <User size={20} className="md:w-5 md:h-5 group-hover:scale-110 transition-transform" />
+                  <User size={18} className="md:w-4 md:h-4 group-hover:scale-110 transition-transform" />
                   <span className="whitespace-nowrap font-medium text-[11px] md:text-xs">Login</span>
                 </Link>
               )}

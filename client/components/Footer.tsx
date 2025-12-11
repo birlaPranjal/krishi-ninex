@@ -18,39 +18,39 @@ const Footer = () => {
     <footer className="w-full">
       {/* Upper Section - Dark Blue */}
       <div className="bg-[#1e3a5f] text-white">
-        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-4 sm:py-6 md:py-8">
+        <div className="max-w-[1400px] mx-auto px-2 sm:px-3 md:px-4 py-3 sm:py-4 md:py-5">
           {/* Guarantee Boxes */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-3 md:gap-4 mb-6 sm:mb-7 md:mb-8">
             <div className="bg-gray-800 rounded-lg p-2 sm:p-3 md:p-4 flex items-center gap-1.5 sm:gap-2 md:gap-3">
               <div className="bg-green-600 rounded-full p-1.5 sm:p-2 flex-shrink-0">
-                <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-white" />
+                <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5 text-white" />
               </div>
               <div>
-                <p className="font-semibold text-[10px] xs:text-xs sm:text-sm leading-tight">Guaranteed Lowest Prices</p>
+                <p className="font-semibold text-[9px] xs:text-[10px] sm:text-xs leading-tight">Guaranteed Lowest Prices</p>
               </div>
             </div>
             <div className="bg-gray-800 rounded-lg p-2 sm:p-3 md:p-4 flex items-center gap-1.5 sm:gap-2 md:gap-3">
               <div className="bg-blue-600 rounded-full p-1.5 sm:p-2 flex-shrink-0">
-                <Truck className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-white" />
+                <Truck className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5 text-white" />
               </div>
               <div>
-                <p className="font-semibold text-[10px] xs:text-xs sm:text-sm leading-tight">FREE India Wide Shipping</p>
+                <p className="font-semibold text-[9px] xs:text-[10px] sm:text-xs leading-tight">FREE India Wide Shipping</p>
               </div>
             </div>
             <div className="bg-gray-800 rounded-lg p-2 sm:p-3 md:p-4 flex items-center gap-1.5 sm:gap-2 md:gap-3">
               <div className="bg-green-600 rounded-full p-1.5 sm:p-2 flex-shrink-0">
-                <Shield className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-white" />
+                <Shield className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5 text-white" />
               </div>
               <div>
-                <p className="font-semibold text-[10px] xs:text-xs sm:text-sm leading-tight">SAFE SHOPPING Guarantee</p>
+                <p className="font-semibold text-[9px] xs:text-[10px] sm:text-xs leading-tight">SAFE SHOPPING Guarantee</p>
               </div>
             </div>
             <div className="bg-gray-800 rounded-lg p-2 sm:p-3 md:p-4 flex items-center gap-1.5 sm:gap-2 md:gap-3">
               <div className="bg-blue-600 rounded-full p-1.5 sm:p-2 flex-shrink-0">
-                <HandCoins className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-white" />
+                <HandCoins className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5 text-white" />
               </div>
               <div>
-                <p className="font-semibold text-[10px] xs:text-xs sm:text-sm leading-tight">EASY Returns & Replacements</p>
+                <p className="font-semibold text-[9px] xs:text-[10px] sm:text-xs leading-tight">EASY Returns & Replacements</p>
               </div>
             </div>
           </div>
@@ -59,12 +59,12 @@ const Footer = () => {
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 md:gap-10 lg:gap-12 mb-6 sm:mb-8 md:mb-10">
             {/* Categories */}
             <div>
-              <h3 className="font-bold text-base sm:text-lg md:text-xl mb-3 sm:mb-4 md:mb-5 text-white">Categories</h3>
+              <h3 className="font-bold text-sm sm:text-base md:text-lg mb-2 sm:mb-3 md:mb-4 text-white">Categories</h3>
               <ul className="space-y-2 sm:space-y-2.5 md:space-y-3">
                 <li>
                   <Link 
                     href="/categories/equipments" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Equipments
                   </Link>
@@ -72,7 +72,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/categories/gardening" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Gardening
                   </Link>
@@ -80,7 +80,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/categories/crop-protection" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Crop protection
                   </Link>
@@ -88,7 +88,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/categories/fertilizers" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Fertilizers
                   </Link>
@@ -96,7 +96,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/categories/organic-farming" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Organic Farming
                   </Link>
@@ -104,7 +104,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/categories/bulk" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Bulk
                   </Link>
@@ -112,7 +112,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/categories/seeds" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Seeds
                   </Link>
@@ -120,7 +120,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/categories/irrigation" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Irrigation
                   </Link>
@@ -128,7 +128,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/categories/cattle-bird-care" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Cattle & Bird Care
                   </Link>
@@ -136,7 +136,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/categories/farm-products" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Farm Products
                   </Link>
@@ -144,7 +144,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/categories/media" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Media
                   </Link>
@@ -152,7 +152,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/categories/health-wellness" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Health & Wellness
                   </Link>
@@ -160,7 +160,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/categories/growth-regulators" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Growth Regulators
                   </Link>
@@ -175,7 +175,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/about-us" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     About Us
                   </Link>
@@ -183,7 +183,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/why-eclat-agroxglobal" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Why ninexagro
                   </Link>
@@ -191,7 +191,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/careers" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Careers
                   </Link>
@@ -199,7 +199,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/contact-us" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Contact us
                   </Link>
@@ -207,7 +207,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/new-arrivals" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     New Arrivals
                   </Link>
@@ -215,7 +215,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/eclat-sale" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     ECLAT Sale
                   </Link>
@@ -223,7 +223,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/todays-offers" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Today&apos;s Offers
                   </Link>
@@ -231,7 +231,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/eclat-talk" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     ECLAT Talk
                   </Link>
@@ -239,7 +239,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/find-commodity-prices" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Find Commodity Prices
                   </Link>
@@ -247,7 +247,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/how-referral-works" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     How Referral works
                   </Link>
@@ -255,7 +255,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/eclat-agroxglobal-blog" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     ninexagro Blog
                   </Link>
@@ -263,7 +263,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/sitemap" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Sitemap
                   </Link>
@@ -278,7 +278,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/privacy-policy" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Privacy Policy
                   </Link>
@@ -286,7 +286,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/shipping-delivery" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Shipping / Delivery
                   </Link>
@@ -294,7 +294,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/cancellation-policy" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Cancellation Policy
                   </Link>
@@ -302,7 +302,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/return-policy" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Return Policy
                   </Link>
@@ -310,7 +310,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/faq" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     FAQ
                   </Link>
@@ -318,7 +318,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/terms-of-use" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Terms of Use
                   </Link>
@@ -326,7 +326,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/seller-terms-and-conditions" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Seller Terms and Conditions
                   </Link>
@@ -341,7 +341,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/sell-on-eclat-agroxglobal" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Sell on ninexagro
                   </Link>
@@ -349,7 +349,7 @@ const Footer = () => {
                 <li>
                   <Link 
                     href="/customer-login" 
-                    className="text-sm sm:text-base text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
+                    className="text-xs sm:text-sm text-gray-200 hover:text-white hover:underline transition-all duration-200 inline-block"
                   >
                     Customer Login
                   </Link>
@@ -362,7 +362,7 @@ const Footer = () => {
           <div className="pt-5 sm:pt-6 md:pt-8 border-t border-gray-600 mb-5 sm:mb-6 md:mb-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
               <div>
-                <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-white">Address</h3>
+                <h3 className="font-bold text-sm sm:text-base mb-2 sm:mb-3 text-white">Address</h3>
                 <p className="text-sm sm:text-base text-gray-200 leading-relaxed">
                   353 MR 3 ROAD MAHALAKSHMI NAGAR<br />
                   INDORE, 452010
@@ -390,8 +390,8 @@ const Footer = () => {
           </div>
 
           {/* Copyright and Social Media */}
-          <div className="flex flex-col md:flex-row justify-between items-center pt-5 sm:pt-6 md:pt-8 border-t border-gray-600 gap-4 sm:gap-5">
-            <p className="text-sm sm:text-base text-gray-200 text-center md:text-left mb-2 md:mb-0">Copyright©2025@krishansheclatagro.com. All rights reserved.</p>
+            <div className="flex flex-col md:flex-row justify-between items-center pt-5 sm:pt-6 md:pt-8 border-t border-gray-600 gap-4 sm:gap-5">
+              <p className="text-sm sm:text-base text-gray-200 text-center md:text-left mb-2 md:mb-0">Copyright © {new Date().getFullYear()}. All rights reserved.</p>
             <div className="flex items-center gap-3 sm:gap-4 md:gap-5 flex-wrap justify-center md:justify-start">
               <span className="text-sm sm:text-base text-gray-200 mr-2 sm:mr-3">Connect With</span>
               <div className="flex gap-3 sm:gap-4">
@@ -445,13 +445,13 @@ const Footer = () => {
 
       {/* Lower Section - Lighter Blue */}
       <div className="bg-[#4a7ba7] text-white">
-        <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-4 sm:py-6 md:py-8">
-          <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-5 md:mb-6">Most Searched on ninexagro</h2>
+        <div className="max-w-[1400px] mx-auto px-2 sm:px-3 md:px-4 py-3 sm:py-4 md:py-5">
+          <h2 className="text-base sm:text-lg md:text-xl font-bold mb-3 sm:mb-4 md:mb-5">Most Searched on ninexagro</h2>
           
-          <div className="space-y-4 sm:space-y-5 md:space-y-6 text-xs sm:text-sm">
+          <div className="space-y-3 sm:space-y-4 md:space-y-5 text-[10px] sm:text-xs">
             {/* Equipments */}
             <div>
-              <h3 className="font-bold mb-1.5 sm:mb-2 text-sm sm:text-base">Equipments :</h3>
+              <h3 className="font-bold mb-1.5 sm:mb-2 text-xs sm:text-sm">Equipments :</h3>
               <p className="text-gray-100 leading-relaxed">
                 Hand Operated Tools | Spray Pump | Tarpaulin | Mulching | Brush Cutter | Weeders | Water Pump | Pond Liner | Vermi Compost Bed | Biofloc Fish Tank | Head Torch | Azolla Growing Bed | Weed Control Mat | Solar Products | Fogging Machine | Chain Saw | Crop Protection Cover | Hedge Trimmer | Earth Auger | Other Hardware | Traps
               </p>

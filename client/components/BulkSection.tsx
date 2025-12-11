@@ -26,13 +26,13 @@ export default function BulkSection() {
   }
 
   return (
-    <section className="py-6 md:py-8 lg:py-10 bg-white border-t border-gray-200">
-      <div className="container mx-auto px-4 md:px-6 max-w-7xl">
-        <div className="flex items-center justify-between mb-6 md:mb-8">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900">Bulk</h2>
+    <section className="py-4 md:py-5 lg:py-6 bg-white border-t border-gray-200">
+      <div className="container mx-auto px-2 md:px-3 max-w-[1400px]">
+        <div className="flex items-center justify-between mb-4 md:mb-6">
+          <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900">Bulk</h2>
           <Link 
             href="/categories/bulk" 
-            className="text-[#16a34a] hover:text-[#15803d] font-semibold text-base md:text-lg transition-colors whitespace-nowrap hover:underline flex items-center gap-1"
+            className="text-[#16a34a] hover:text-[#15803d] font-semibold text-sm md:text-base transition-colors whitespace-nowrap hover:underline flex items-center gap-1"
           >
             View All →
           </Link>

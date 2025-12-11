@@ -37,7 +37,7 @@ export default function Carousel() {
   };
 
   return (
-    <div className="relative w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] overflow-hidden bg-gradient-to-b from-yellow-50 via-yellow-50 to-green-50" style={{ zIndex: 1 }}>
+    <div className="relative w-full h-[150px] xs:h-[180px] sm:h-[220px] md:h-[280px] lg:h-[350px] xl:h-[400px] overflow-hidden bg-gradient-to-b from-yellow-50 via-yellow-50 to-green-50" style={{ zIndex: 1 }}>
       {/* Carousel Images */}
       <div className="relative w-full h-full">
         {banners.map((banner, index) => (
@@ -65,14 +65,14 @@ export default function Carousel() {
         className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white rounded-full p-1.5 sm:p-2 shadow-lg transition-all z-10"
         aria-label="Previous slide"
       >
-        <ChevronLeft size={18} className="sm:w-6 sm:h-6 text-gray-800" />
+        <ChevronLeft size={16} className="sm:w-5 sm:h-5 text-gray-800" />
       </button>
       <button
         onClick={goToNext}
         className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white rounded-full p-1.5 sm:p-2 shadow-lg transition-all z-10"
         aria-label="Next slide"
       >
-        <ChevronRight size={18} className="sm:w-6 sm:h-6 text-gray-800" />
+        <ChevronRight size={16} className="sm:w-5 sm:h-5 text-gray-800" />
       </button>
 
       {/* Indicators */}
@@ -81,10 +81,10 @@ export default function Carousel() {
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`h-1.5 sm:h-2 md:h-2.5 rounded-full transition-all ${
+            className={`h-1 sm:h-1.5 md:h-2 rounded-full transition-all ${
               index === currentIndex
-                ? 'w-6 sm:w-8 bg-white shadow-md'
-                : 'w-1.5 sm:w-2 md:w-2.5 bg-white/60 hover:bg-white/80'
+                ? 'w-5 sm:w-6 bg-white shadow-md'
+                : 'w-1 sm:w-1.5 md:w-2 bg-white/60 hover:bg-white/80'
             }`}
             aria-label={`Go to slide ${index + 1}`}
           />

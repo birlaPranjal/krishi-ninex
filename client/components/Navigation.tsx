@@ -331,7 +331,7 @@ export default function Navigation({ isMobileMenuOpen = false, onCloseMobileMenu
       <div className="flex flex-col md:flex-row h-full w-full">
         {/* Left side - Category items in two columns */}
         <div className="flex-1 p-3 md:p-4 overflow-y-auto">
-          <div className="max-w-7xl mx-auto w-full">
+          <div className="max-w-[1400px] mx-auto w-full">
             <h3 className="text-base md:text-lg font-semibold text-gray-900 mb-2">
               {currentCategory!.name}
             </h3>

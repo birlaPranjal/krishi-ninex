@@ -8,7 +8,7 @@ export default function TopBar() {
 
   return (
     <div className="bg-[#2563eb] text-white text-sm w-full border-b border-blue-600">
-      <div className="w-full px-2 sm:px-3 md:px-4 lg:px-6 max-w-7xl mx-auto">
+      <div className="w-full px-2 sm:px-3 md:px-4 max-w-[1400px] mx-auto">
         <div className="flex items-center justify-between py-2 sm:py-2.5 md:py-3 gap-2">
           <div className="flex items-center gap-2 sm:gap-3 md:gap-4 lg:gap-6 overflow-x-auto scrollbar-hide flex-1 min-w-0">
             <a href="tel:7065060162" className="flex items-center gap-1 sm:gap-1.5 hover:opacity-90 transition-opacity font-medium text-[11px] xs:text-xs sm:text-sm whitespace-nowrap flex-shrink-0">

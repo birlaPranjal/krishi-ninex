@@ -38,8 +38,8 @@ export default function TrendingProducts() {
 
   return (
     <section className="py-6 md:py-8 lg:py-10 bg-gray-50 border-t border-gray-200">
-      <div className="container mx-auto px-4 md:px-6 max-w-7xl">
-        <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 md:mb-6">Trending Products</h3>
+      <div className="container mx-auto px-2 md:px-3 max-w-[1400px]">
+        <h3 className="text-base md:text-lg lg:text-xl font-bold text-gray-900 mb-3 md:mb-4">Trending Products</h3>
         <div className="flex flex-wrap gap-2 md:gap-3">
           {trendingProducts.map((product, index) => (
             <Link

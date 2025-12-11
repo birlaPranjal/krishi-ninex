@@ -16,9 +16,9 @@ export default function CampaignBanners() {
 
   return (
     <section className="py-3 sm:py-4 md:py-5 lg:py-6 bg-gradient-to-r from-green-50 via-blue-50 to-green-50 border-y border-gray-200">
-      <div className="container mx-auto px-3 sm:px-4 md:px-6 max-w-7xl">
+      <div className="container mx-auto px-2 sm:px-3 md:px-4 max-w-[1400px]">
         <div className="flex items-center justify-between mb-2 sm:mb-3 md:mb-4">
-          <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-gray-900">Explore Our Current Offers Bundles</h3>
+          <h3 className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-gray-900">Explore Our Current Offers Bundles</h3>
         </div>
         <div className="overflow-x-auto scrollbar-hide -mx-3 sm:-mx-4 md:-mx-6 px-3 sm:px-4 md:px-6">
           <div className="flex gap-2 sm:gap-2.5 md:gap-3 pb-2" style={{ minWidth: 'max-content' }}>
